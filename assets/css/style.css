@@ -81,7 +81,6 @@ footer{
     padding:42px;
 }
 
-
 .home-intro{
     text-align:center;
     margin-bottom:50px;
@@ -138,16 +137,6 @@ footer{
     padding:20px;
 }
 
-.event-type{
-    display:inline-block;
-    background:#F3EEFF;
-    color:#369d98;
-    padding:5px 12px;
-    border-radius:20px;
-    font-size:13px;
-    margin-bottom:12px;
-}
-
 .event-container h3{
     margin-bottom:15px;
     color:#374151;
@@ -181,8 +170,6 @@ footer{
     margin:40px auto 0;
     padding: 14px ;
 }
-
-
 
 .aboutus-section,
 .team-info,
@@ -270,9 +257,6 @@ footer{
     background:#dcfce7;
     color:#37a15f;
 }
-
-
-
 
 .events-mainpage{
     max-width:1200px;
@@ -366,7 +350,6 @@ footer{
     background:#369d98;
 }
 
-
 .event-details{
     max-width:1000px;
 }
@@ -423,7 +406,7 @@ footer{
     padding:12px 25px;
     border:1px solid #374151;
     color:white;
-    background-color:#374151; ;
+    background-color:#374151;
     text-decoration:none;
     border-radius:8px;
 }
@@ -451,24 +434,6 @@ footer{
 .not-found-message p{
     margin-bottom:25px;
 }
-
-@media (max-width:900px){
-    .eevents-div{
-        grid-template-columns:repeat(2, minmax(0, 1fr));
-    }
-}
-
-@media (max-width:600px){
-    .events-div{
-        grid-template-columns:1fr;
-    }
-
-    .event-details-card img{
-        height:230px;
-    }
-}
-
-
 
 .registration-main-form{
     max-width:700px;
@@ -524,10 +489,6 @@ footer{
     border-color:#369d98;
     box-shadow:0 0 5px #374151;
 }
-
-
-
-
 
 .register-list{
     max-width:1200px;
@@ -588,4 +549,101 @@ footer{
 .no-register-message .register-buttonn{
     display:inline-block;
     text-decoration:none;
+}
+
+
+/*------RESPONSIVE DESIGN-------*/
+
+@media (max-width:900px){
+    .navbar{
+        padding:22px 24px;
+    }
+
+    .nav-links{
+        gap:16px;
+    }
+
+    main{
+        width:94%;
+        padding:35px;
+    }
+
+    .events-div{
+        grid-template-columns:repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width:700px){
+    .navbar{
+        flex-direction:column;
+        gap:20px;
+        padding:22px 18px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:14px 20px;
+    }
+
+    .logo{
+        text-align:center;
+    }
+
+    main{
+        width:94%;
+        margin:30px auto;
+        padding:28px 22px;
+    }
+
+    footer{
+        padding:30px 18px;
+    }
+
+    .registration-form{
+        padding:25px 20px;
+    }
+
+    .event-actions{
+        flex-direction:column;
+    }
+
+    .register-button,
+    .back-button{
+        width:100%;
+        text-align:center;
+    }
+}
+
+@media (max-width:600px){
+
+    .events-div,
+    .events-divs{
+        grid-template-columns:1fr;
+    }
+
+    .event-details-card img{
+        height:230px;
+    }
+
+    .event-div img,
+    .event-container img{
+        height:210px;
+    }
+
+    .registrations-table th,
+    .registrations-table td{
+        padding:12px;
+        font-size:14px;
+        white-space:nowrap;
+    }
+
+    main h1{
+        font-size:28px;
+    }
+
+    .featured-section h2,
+    .events-heading h1{
+        font-size:25px;
+    }
 }
