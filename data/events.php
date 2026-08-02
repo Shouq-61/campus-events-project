@@ -13,7 +13,7 @@ $events = [
 
     [
         "id" => 2,
-        "title" => "Principles of Financial Management",
+        "title" => "Financial Management Co",
         "type" => "Training Course",
         "date" => "2026-09-04",
         "time" => "11:00 AM",

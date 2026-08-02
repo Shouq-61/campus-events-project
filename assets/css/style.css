@@ -80,3 +80,196 @@ footer{
     text-align:center;
     padding:42px;
 }
+
+
+.home-intro{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.home-intro h1{
+    color:#369d98;
+    margin-bottom:15px;
+}
+
+.home-intro p{
+    max-width:750px;
+    margin:auto;
+    line-height:1.8;
+    color:#555;
+}
+
+.featured-section{
+    margin-top:50px;
+}
+
+.featured-section h2{
+    text-align:center;
+    color:#374151;
+    margin-bottom:30px;
+}
+
+.events-divs{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.event-container{
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.event-container:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+}
+
+.event-container img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.event-content{
+    padding:20px;
+}
+
+.event-type{
+    display:inline-block;
+    background:#F3EEFF;
+    color:#369d98;
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:13px;
+    margin-bottom:12px;
+}
+
+.event-container h3{
+    margin-bottom:15px;
+    color:#374151;
+}
+
+.event-container p{
+    margin-bottom:10px;
+    line-height:1.7;
+}
+
+.details-button,
+.events-link{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:#374151;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.details-button:hover,
+.events-link:hover{
+    background:#369d98;
+}
+
+.events-link{
+    display:block;
+    width:fit-content;
+    margin:40px auto 0;
+    padding: 17px ;
+}
+
+
+
+
+
+
+.aboutus-section,
+.team-info,
+.contactus-section{
+    margin-bottom:45px;
+}
+
+.aboutus-section h1,
+.team-info h2,
+.contactus-section h2{
+    color:#369d98;
+    margin-bottom:18px;
+}
+
+.aboutus-section p{
+    line-height:1.8;
+    color:#555;
+    margin-bottom:15px;
+}
+
+.team-list{
+    margin-left:20px;
+    line-height:2;
+    color:#374151;
+}
+
+.contact-form{
+    margin-top:25px;
+}
+
+.form-contact{
+    margin-bottom:20px;
+}
+
+.form-contact label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+    color:#374151;
+}
+
+.form-contact input,
+.form-contact textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #d1d5db;
+    border-radius:8px;
+    font-size:15px;
+    transition:.3s;
+}
+
+.form-contact input:focus,
+.form-contact textarea:focus{
+    outline:none;
+    border-color:#374151;
+    box-shadow:0 0 5px rgba(139,92,246,.25);
+}
+
+.send-button{
+    background:#374151;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.send-button:hover{
+    background:#369d98;
+}
+
+.main-message{
+    padding:15px;
+    border-radius:8px;
+    margin-bottom:20px;
+}
+
+.error-msg{
+    background:#fee2e2;
+    color:#d15757;
+}
+
+.success-msg{
+    background:#dcfce7;
+    color:#37a15f;
+}
