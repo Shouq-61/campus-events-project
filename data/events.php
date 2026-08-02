@@ -35,7 +35,7 @@ $events = [
 
     [
         "id" => 4,
-        "title" => "Digital Content Creation Workshop",
+        "title" => "Digital Content Creation",
         "type" => "Workshop",
         "date" => "2026-09-15",
         "time" => "12:00 PM",
